@@ -1,7 +1,7 @@
 # portfolio-site
 This is my portfolio website
 
-#LICENSE
+# LICENSE
 
 MIT License
 
