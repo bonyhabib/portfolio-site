@@ -596,13 +596,28 @@ nav .nav__button-main a span {
 }
 }
 .hero {
+
     background-color: #f9f6f3;
+    border-style: ridge; border-width: 2px;
+    border-radius: 1%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3.8%;
+    margin-bottom: 2%;
+
 }
 @media (min-width: 748px) {
 .hero {
+    border-style: ridge; border-width: 2px;
+    border-radius: 1%;
+    border-color: ;
     background-position: center bottom;
-    background-repeat: no-repeat;
-    height: 600px;
+    background-repeat: no-repeat; 
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3.8%;
+    margin-bottom: 2%;
+
 }
 }
 @media (min-width: 1260px) {
@@ -622,6 +637,10 @@ nav .nav__button-main a span {
     font-size: 60px;
     color: #ec3b3c;
 }
+}
+
+.outer-box{
+    
 }
 
 .hero .hero__text h1{
