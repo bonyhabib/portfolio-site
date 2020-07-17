@@ -604,6 +604,7 @@ nav .nav__button-main a span {
     margin-left: 5%;
     margin-top: 3.8%;
     margin-bottom: 2%;
+    height: 500px;
 
 }
 @media (min-width: 748px) {
@@ -612,7 +613,8 @@ nav .nav__button-main a span {
     border-radius: 1%;
     border-color: ;
     background-position: center bottom;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    height: 600px; 
     width: 90%;
     margin-left: 5%;
     margin-top: 3.8%;
@@ -622,9 +624,16 @@ nav .nav__button-main a span {
 }
 @media (min-width: 1260px) {
 .hero {
+    border-style: ridge; border-width: 2px;
+    border-radius: 1%;
     background-position: center bottom;
     background-repeat: no-repeat;
-    height: 600px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3.8%;
+    margin-bottom: 2%;
+    height: 500px;
+
 }
 }
 .hero .hero__text {
