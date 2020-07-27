@@ -436,6 +436,7 @@ code {
     min-width: 260px;
     padding-left: 1.4em;
     padding-right: 1.4em;
+    opacity: 0.95;
 }
 .inner:after {
     clear: both;
@@ -457,6 +458,7 @@ nav {
     min-height: 60px;
     position: relative;
     text-align: center;
+   
 }
 nav a {
     border: 0 none;
@@ -523,7 +525,13 @@ nav a:hover {
 @media (min-width: 748px) {
 nav {
     background: none repeat scroll 0 0 black;
+    opacity: 0.95;
     height: 83px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
 }
 nav .menu-button {
     display: none;
@@ -617,7 +625,7 @@ nav .nav__button-main a span {
     height: 600px; 
     width: 90%;
     margin-left: 5%;
-    margin-top: 3.8%;
+    margin-top: 100px;
     margin-bottom: 2%;
 
 }
@@ -630,7 +638,7 @@ nav .nav__button-main a span {
     background-repeat: no-repeat;
     width: 90%;
     margin-left: 5%;
-    margin-top: 3.8%;
+    margin-top: 7.8%;
     margin-bottom: 2%;
     height: 500px;
 
@@ -1098,6 +1106,7 @@ form .field--full {
 }
 .footer-container {
     background: none repeat scroll 0 0 black;
+    opacity: 0.95;
     color: #fff;
     padding-bottom: 3em;
     padding-top: 3em;
@@ -1119,6 +1128,39 @@ form .field--full {
 }
 }
 
+
+.social-head {
+    background-color: #f9f6f3; 
+    margin: auto;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.social-head img{
+    width: 32px;
+    height: 32px;
+    padding-left: 7px;
+}
+
+@media (min-width: 748px) {
+.social-head {
+    background-color: #f9f6f3;
+    margin-top: -340px;
+    margin-left: -45px;
+    width: 40px;
+    position: fixed;
+
+}
+
+.social-head img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 12px;
+}
+}
 
 .footer-container h3, .footer-container h4, .footer-container p {
     color: #fff;
