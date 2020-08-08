@@ -5,4 +5,4 @@ This is my portfolio website
 
 MIT License
 
-Copyright (c) 2020 Ashiqul Habib [哈比]
+Copyright (c) Ashiqul Habib [哈比]
